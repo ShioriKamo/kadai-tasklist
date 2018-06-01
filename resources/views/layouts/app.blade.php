@@ -15,7 +15,8 @@
     <body>
         @include('commons.navbar')
         
-        <div class="container">
+        <div class="container col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-sm-8 col-md-offset-3 col-lg-6" >
+             
             @include('commons.error_tasks')
             
             @yield('content')
