@@ -2,11 +2,8 @@
 
 @section('content')
 
-    <h1>タスク新規作成ページ</h1>
-
-
-     <div class="row">
-            
+     <div class="row col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-sm-8 col-md-offset-3 col-lg-6">
+            <h1>タスク新規作成ページ</h1>
             {!! Form::model($task, ['route' => 'tasks.store']) !!}
             
                 <div class="form-group">
